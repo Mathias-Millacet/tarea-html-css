@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito" sans-serif;
+  font-size: 20px;
+}
+
+/* Imagen logo principal*/
+.logo {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left: 38px;
+  top: 38px;
+}
+/* Botones principales */
+.container {
+  display: -webkit-inline-box;
+  position: relative;
+  right: 140px;
+}
+.container ul {
+  position: relative;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  left: 220px;
+}
+a {
+  color: black;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 5px 0px 0px;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  right: 17px;
+  position: relative;
+}
+
+.btnLogin-popup {
+  width: 85px;
+  height: 35px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 400px;
+  border: #ffffff;
+  align-items: center;
+  padding: 0px 5px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.btnSignUp {
+  width: 85px;
+  height: 35px;
+  background: #7101ff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  border: #ffffff;
+  padding: 0px 5px 0px 0px;
+  position: relative;
+  bottom: 5px;
+}
+
+/* Titulos,parrafos principales y imagen personas en oficia. 
+En la CLSSE (.bloque-izquierda) */
+.bloque-izq {
+  margin-left: 43px;
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 500px;
+  height: 285px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  object-fit: cover;
+  object-position: top;
+}
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+h3 {
+  padding-bottom: 10px;
+}
+p {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* Direcciones de la pagina web.
+
+*/
+.direcciones {
+  display: flex;
+  padding-top: 30px;
+  position: relative;
+}
+
+/* Estilos de las  direcciones */
+.Kingdom {
+  right: 55px;
+  position: relative;
+}
+.France {
+  position: relative;
+  right: 55px;
+}
+
+.description-1 {
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.description-2 {
+  position: relative;
+  right: 160px;
+  padding-top: 10px;
+}
+.description-3 {
+  position: relative;
+  right: 80px;
+  padding-top: 10px;
+}
+
+.Ubicacion {
+  height: 100%;
+  width: 26px;
+  top: 20px;
+  color: #bebaba;
+  padding: 10px 5px;
+  right: 5px;
+}
+.Telefono {
+  height: 100%;
+  width: 26px;
+  top: 55px;
+  padding: 10px 5px;
+  right: 30px;
+}
+/* Formulario en su respectiva CLASSE (.formulario ) */
+.formulario {
+  position: absolute;
+  left: 755px;
+  top: 209px;
+  padding: 40px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  border: 1px solid #bebaba;
+  width: 554px;
+  height: 761px;
+  box-shadow: 0px 0px 25px -11px rgba(0, 0, 0, 0.25);
+}
+
+/* Estilos a todos los input */
+
+input {
+  border-radius: 5px;
+  width: 461px;
+  height: 50px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+input::placeholder {
+  font-size: 16px;
+}
+.edit::placeholder {
+  padding-left: 60px;
+}
+
+.bandera img {
+  position: relative;
+  width: 30px;
+  height: 16px;
+  bottom: 45px;
+  left: 5px;
+}
+img.angle {
+  position: relative;
+  width: auto;
+  left: 21px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.message {
+  position: relative;
+  top: 5px;
+}
+
+textarea {
+  width: 461px;
+  height: 134px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 49px;
+}
+
+.firstLast input {
+  width: 210px;
+}
+.firstLast {
+  gap: 26px;
+}
+
+/* Estilos al boton ( Send )*/
+
+.buttom {
+  display: contents;
+  margin-bottom: 20px;
+}
+.buttom input {
+  background: #7101ff;
+  color: #ffffff;
+}

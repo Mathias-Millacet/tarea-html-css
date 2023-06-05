@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Bios</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="/imagenes/paleta.png" alt="Logo" />
+      <nav class="container">
+        <ul>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Resources Center</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="button">
+          <button class="btnLogin-popup">Login</button>
+          <button class="btnSignUp">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+    <div class="bloque-izq">
+      <h1>
+        Talk to our product<br />
+        analytics expert
+      </h1>
+
+      <p class="description-1">
+        Have questions about pricing, plans, or Growthly? Fill out the <br />
+        form and our product analytics expert will be in touch directly.
+      </p>
+      <h3>Our office</h3>
+      <img
+        alt="Personas-trabajando-en-una-oficina"
+        src="imagenes/grupo-personas-trabajando-plan-negocios-oficina.jpg"
+      />
+      <p class="description-1">
+        Have questions about pricing, plans, or Growthly? Fill out the <br />
+        form and our product analytics expert will be in touch directly.
+      </p>
+
+      <div class="direcciones">
+        <img class="Ubicacion" src="Imagenes/ubicacion.png" />
+        <img class="Telefono" src="Imagenes/bx-phone.svg" />
+        <h3 class="Kingdom">United Kingdom</h3>
+        <p class="description-2">
+          <br />
+          30 Eastbourne Terrace <br />
+          Paddington, London<br />
+          W2 6LA, UK
+        </p>
+
+        <img class="Ubicacion" src="Imagenes/ubicacion.png" />
+        <img class="Telefono" src="Imagenes/bx-phone.svg" />
+        <h3 class="France">France</h3>
+        <p class="description-3">
+          <br />266 Place Ernest Granier<br />
+          34000 Montpellier<br />
+          France
+        </p>
+      </div>
+    </div>
+    <div class="formulario">
+      <form action="form">
+        <div class="firstLast" style="display: flex">
+          <div>
+            <label for="FirstName">First Name</label>
+            <input type="text" placeholder="First Name" required />
+          </div>
+          <div class="firstLast">
+            <label for="LastName">Last Name</label>
+            <input type="text" placeholder="Last Name" required />
+          </div>
+        </div>
+
+        <label for="Email">Email Address</label>
+        <input type="text" placeholder="Email Address" required />
+
+        <label for="CompanyName">Company Name</label>
+        <input type="text" placeholder="Company Name" required />
+        <label for="PhoneNumber">Phone Number</label>
+        <div class="bandera">
+          <input
+            class="edit"
+            type="text"
+            placeholder="| Phone Number"
+            required
+          />
+          <img class="indonesia" src="imagenes/indonesia.png" />
+          <img class="angle" src="imagenes/angle-down-solid (1).svg" />
+        </div>
+        <label class="message" for="Message">Message</label>
+        <textarea
+          name="description"
+          id="des"
+          cols="30"
+          rows="4"
+          placeholder="Message"
+          required
+        ></textarea>
+
+        <div class="buttom"><input type="submit" value="Send" /></div>
+      </form>
+    </div>
+  </body>
+</html>
