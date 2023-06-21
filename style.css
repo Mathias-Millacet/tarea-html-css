@@ -154,7 +154,7 @@ p {
   right: 30px;
 }
 /* Formulario en su respectiva CLASSE (.formulario ) */
-.formulario {
+.formulation {
   position: absolute;
   left: 755px;
   top: 209px;
@@ -175,12 +175,10 @@ input {
   height: 50px;
   padding-left: 10px;
   margin-bottom: 10px;
+  max-width: ;
 }
 input::placeholder {
   font-size: 16px;
-}
-.edit::placeholder {
-  padding-left: 60px;
 }
 
 .bandera img {
@@ -215,6 +213,9 @@ textarea {
 }
 .firstLast {
   gap: 26px;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-end;
 }
 
 /* Estilos al boton ( Send )*/
@@ -226,4 +227,22 @@ textarea {
 .buttom input {
   background: #7101ff;
   color: #ffffff;
+}
+
+/* Estilos para la segunda ventana de datos (madal) */
+
+.segundoForm {
+  display: block;
+  margin: auto;
+  display: block;
+  margin: auto;
+  width: 500px;
+  background-color: #5b99e745;
+  position: relative;
+  top: 50px;
+  padding: 40px;
+}
+
+p {
+  padding: 2px;
 }

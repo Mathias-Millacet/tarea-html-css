@@ -64,47 +64,51 @@
         </p>
       </div>
     </div>
-    <div class="formulario">
-      <form action="form">
-        <div class="firstLast" style="display: flex">
-          <div>
+    <form action="form.html">
+      
+      <div class="formulation">
+
+        <div class="form-grupo firstLast" style="display: flex">
+              <div class="form first"> 
             <label for="FirstName">First Name</label>
-            <input type="text" placeholder="First Name" required />
+            <input type="text" id="first" placeholder="First Name"  />
           </div>
-          <div class="firstLast">
-            <label for="LastName">Last Name</label>
-            <input type="text" placeholder="Last Name" required />
+          <div class="form-grupo last" >
+          <label for="LastName">Last Name</label>
+          <input type="text"  id="last" placeholder="Last Name" />
           </div>
         </div>
-
-        <label for="Email">Email Address</label>
-        <input type="text" placeholder="Email Address" required />
-
-        <label for="CompanyName">Company Name</label>
-        <input type="text" placeholder="Company Name" required />
-        <label for="PhoneNumber">Phone Number</label>
-        <div class="bandera">
-          <input
-            class="edit"
-            type="text"
-            placeholder="| Phone Number"
-            required
-          />
-          <img class="indonesia" src="imagenes/indonesia.png" />
-          <img class="angle" src="imagenes/angle-down-solid (1).svg" />
-        </div>
-        <label class="message" for="Message">Message</label>
-        <textarea
-          name="description"
-          id="des"
-          cols="30"
-          rows="4"
-          placeholder="Message"
-          required
-        ></textarea>
-
-        <div class="buttom"><input type="submit" value="Send" /></div>
-      </form>
-    </div>
+          <div class="form-grupo email">
+            <label for="Email">Email Address</label>
+            <input type="email" id="email" placeholder="Email Address" /></div>
+            <div class="form-grupo company">
+              <label for="CompanyName">Company Name</label>
+              <input type="text" id="company" placeholder="Company Name" />
+            </div>
+            <div class="form-grupo phone">
+              <label for="PhoneNumber">Phone Number</label>
+              <input id="phone" type="text" placeholder="Phone Number" />
+              <select id="countries">
+                <option value="" selected>Indonesia</option>
+                <option value="Uruguay">Uruguay</option>
+              </select>
+            </div>
+            <div class="form-grupo message msg">
+              <label for="Message">Message</label>
+              <textarea
+              name="description"
+              id="msg"
+              cols="30"
+              rows="4"
+              placeholder="Message"
+              
+              ></textarea></div>
+              
+              <div class="buttom"><input type="submit" /></div>
+            </form>
+          </div>
+          </div>
+      </div>
   </body>
+  <script src="formulario.js"></script>
 </html>
